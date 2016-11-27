@@ -1,0 +1,25 @@
+h1{ text-align: center;
+	color: #8e44ad;
+}
+
+.heading{
+	text-align: center;
+	color: #8e44ad;
+}
+.jumbotron{
+  background-image: url('http://cdn.wallpapersafari.com/41/31/uBQGtJ.jpg');
+
+  /*
+	url:(../img/2.jpg)
+  */
+  background-size: cover;
+  color: #fff;
+}
+.style{
+    
+}
+body{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
