@@ -19,7 +19,9 @@ h1{ text-align: center;
     
 }
 body{
+	background-image: url("http://i123.photobucket.com/albums/o285/jane_doe_102/BACKGROUND%20IMAGES/nightsky.gif");
     text-align: justify;
     text-justify: inter-word;
+    color: #fff;
 }
 
