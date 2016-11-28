@@ -8,6 +8,7 @@ h1{ text-align: center;
 	text-align: center;
 	color: #8e44ad;
 }
+
 .jumbotron{
   background-image: url('http://cdn.wallpapersafari.com/41/31/uBQGtJ.jpg');
 
@@ -17,8 +18,9 @@ h1{ text-align: center;
   background-size: cover;
   color: #fff;
 }
-.style{
-    
+.justify{
+	text-align: justify;
+    text-justify: inter-word;
 }
 body{
 	background-image: url("http://i123.photobucket.com/albums/o285/jane_doe_102/BACKGROUND%20IMAGES/nightsky.gif");
@@ -34,6 +36,13 @@ body{
 	display: block;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
+.submit{
+	color: black;
+}
 
 .circle {
 	position: relative;
