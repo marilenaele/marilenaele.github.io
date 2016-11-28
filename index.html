@@ -19,6 +19,7 @@
 						<h1 class="animated pulse infinite"> Marilena the neuroscientist </h1>
 					</div>
 					<p> Psychology, Neurology and Philosophy &#9996;</p>
+					<a href="http://www.animatedimages.org/cat-unicorns-477.htm"><img src="http://www.animatedimages.org/data/media/477/animated-unicorn-image-0045.gif" border="0" alt="animated-unicorn-image-0045"/></a>
 					<div class="sign"> <i class="em em-sagittarius animated bounce infinite"></i>
 						<a href="https://www.facebook.com/pages/Neuroscience/104083339627297" class="btn btn-lg btn-info animated bounce infinite"> Dive in </a>
 						<i class="em em-sagittarius animated bounce infinite"></i>
@@ -36,7 +37,7 @@
 				<h1> Awesomeness </h1>
 				<div class="magic"> 
 					<a href="https://www.youtube.com/watch?v=1ShsRnuaHGc"> 
-						<img src="img/1.jpg"  class="img-responsive img-thumbnail"> </a>
+						<img src="img/1.jpg"  class="img-responsive img-thumbnail" width="300px" height="500px"> </a>
 				</div>
 			</div>
 
@@ -45,12 +46,35 @@
 				<p> Newton's First Law. Newton's First Law states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force. It may be seen as a statement about inertia, that objects will remain in their state of motion unless a force acts to change the motion. </p>
 				<p>The Combined Gas Law or General Gas Equation is obtained by combining Boyle's Law, Charles' Law, and Gay-Lussac's Law. It shows the relationship between the pressure, volume, and temperature for a fixed mass (quantity) of gas: p V = k 5 T {\displaystyle pV=k_{5}T\,} </p>
 				<p>In chemistry, biochemistry, and pharmacology, a dissociation constant Kd is a specific type of equilibrium constant that measures the propensity of a larger object to separate (dissociate) reversibly into smaller components, as when a complex falls apart into its component molecules. </p>
+				<!--<audio controls
+				 	src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.oga">
+				</audio>-->
+				<audio src="img/1.mp3" autoplay="true" loop="true">
+				</audio>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4">
 				<h1> Boom </h1>
 				<p> We may never meet our true self, never see our true self, save <a href="http://wakinglifemovie.net/Transcript/Chapter/16">through the eyes of someone else </a>.  And that someone else may just as well not be living among us since day one.  He may just as well have appeared out of nowhere, and is very likely to disappear just like that.  But it is our purpose, our one and only purpose to find our true selves- lost in this wilderness of pretence- and thus discover what it is we seek in life, and what it is we can offer.  </p>
+				<audio id="myAudio">
+	 				<source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.mp4"
+	         		type='audio/mp4'>
+	 				<source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.oga"
+	        		type='audio/ogg; codecs=vorbis'>
+	 				Your user agent does not support the HTML5 Audio element.
+				</audio>
+				<a class="btn btn-lg btn-info" onclick="aud_play_pause()">Play/Pause </a>
+				<script>
+					function aud_play_pause() {
+					  var myAudio = document.getElementById("myAudio");
+					  if (myAudio.paused) {
+					    myAudio.play();
+					  } else {
+					    myAudio.pause();
+					  }
+					}
+				</script>
 			</div>
 			<div class="col-md-8">.
 				<h1> Black Holes </h1>
@@ -66,7 +90,8 @@
   						<input type="radio" name="drink" value="tequila"> Tequila <i class="em em-tropical_drink"></i> <br>
   						<input type="radio" name="drink" value="rum"> Rum <i class="em em-palm_tree"></i> <br>
  						<input type="radio" name="drink" value="whiskey"> Wine <i class="em em-wine_glass"></i>
-					</form></div>
+					</form>
+				</div>
   				<div class="col-md-6">
     				<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css"/>
     				<div class="circle">
